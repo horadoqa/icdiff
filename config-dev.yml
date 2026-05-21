@@ -1,0 +1,20 @@
+server:
+  host: 127.0.0.1
+  port: 8080
+  use_ssl: false
+  timeout: 30
+
+app:
+  debug: true
+  log_level: DEBUG
+
+database:
+  host: localhost
+  port: 5432
+  user: dev_user
+  pool_size: 5
+
+cache:
+  enabled: false
+  cache_backend: memory
+  cache_ttl: 60

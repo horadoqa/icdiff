@@ -1,0 +1,20 @@
+server:
+  host: 192.168.10.50
+  port: 443
+  use_ssl: true
+  timeout: 60
+
+app:
+  debug: false
+  log_level: INFO
+
+database:
+  host: prod-db.internal
+  port: 5432
+  user: prod_user
+  pool_size: 50
+
+cache:
+  enabled: true
+  cache_backend: redis
+  cache_ttl: 300
